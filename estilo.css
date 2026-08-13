@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@font-face {
+  font-family: basic;
+  src: url(fontes/Basic-Regular.ttf);
+}    
+    body {
+        background-color: #070709;
+    }
+
+    .titulo h1 {
+        color: brown;
+        font-family: "New Rocker";
+        font-size: 50px;
+        text-align: center;
+    }
+    .titulo p{
+        text-align: center;
+    }
+
+    h2 {
+        font-family: "basic";
+        font-weight: bolder;
+        text-align: center;
+    }
+    .conteudo {
+        max-width: 1000px;
+        background-color: antiquewhite;
+        margin: auto;
+        margin-block: -15px;
+        padding: 15px;
+        border-style: double;
+        border-width: 0px 10px 0px 10px;
+    }
+    .ref {
+        justify-self: center;
+    }
+    .ref img {
+        width: 100%;
+        height: auto;
+    }
+
+    p, li {
+        font-family: "basic";
+        text-align: justify;
+    }
+
+    a {
+        color:#8a2be2;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #310d78;
+        text-decoration: underline;
+    }
